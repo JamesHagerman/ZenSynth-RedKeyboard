@@ -1,0 +1,512 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F690 ]
+[d frameptr 6 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"23 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+"21 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\main.c
+[v _putch putch `(v  1 e 1 0 ]
+"28
+[v _SPI_Write SPI_Write `(v  1 e 1 0 ]
+"71
+[v _write16_eeprom write16_eeprom `(v  1 e 1 0 ]
+"85
+[v _read16_eeprom read16_eeprom `(ui  1 e 2 0 ]
+"114
+[v _checkKey checkKey `(uc  1 e 1 0 ]
+"142
+[v _get_voltage get_voltage `(ul  1 e 4 0 ]
+"163
+[v _tuningCheck tuningCheck `(v  1 e 1 0 ]
+"174
+[v _load_tuning load_tuning `(v  1 e 1 0 ]
+"184
+[v _save_tuning save_tuning `(v  1 e 1 0 ]
+"192
+[v _check_key_range check_key_range `(v  1 e 1 0 ]
+"200
+[v _move_down move_down `(v  1 e 1 0 ]
+"204
+[v _move_up move_up `(v  1 e 1 0 ]
+"209
+[v _check_value_range check_value_range `(v  1 e 1 0 ]
+"219
+[v _tune_down tune_down `(v  1 e 1 0 ]
+"224
+[v _tune_up tune_up `(v  1 e 1 0 ]
+"230
+[v _resetTuning resetTuning `(v  1 e 1 0 ]
+"240
+[v _tune tune `(v  1 e 1 0 ]
+"279
+[v _play play `(v  1 e 1 0 ]
+"305
+[v _main main `(v  1 e 1 0 ]
+"18 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"22 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+[s S155 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"179 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f690.h
+[u S162 . 1 `S155 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES162  1 e 1 @5 ]
+[s S178 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"228
+[u S184 . 1 `S178 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES184  1 e 1 @6 ]
+[s S27 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"270
+[u S36 . 1 `S27 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES36  1 e 1 @7 ]
+"663
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+[s S394 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"690
+[s S400 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S405 . 1 `S394 1 . 1 0 `S400 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES405  1 e 1 @20 ]
+"905
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1243
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+[s S469 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1258
+[u S476 . 1 `S469 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES476  1 e 1 @133 ]
+"1293
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S319 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1307
+[u S325 . 1 `S319 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES325  1 e 1 @134 ]
+"1332
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S361 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1349
+[u S370 . 1 `S361 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES370  1 e 1 @135 ]
+"1542
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+[s S49 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"1849
+[s S58 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S63 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S69 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S74 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S79 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S84 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S89 . 1 `S49 1 . 1 0 `S58 1 . 1 0 `S63 1 . 1 0 `S69 1 . 1 0 `S74 1 . 1 0 `S79 1 . 1 0 `S84 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES89  1 e 1 @148 ]
+[s S487 . 1 `uc 1 WPUA0 1 0 :1:0 
+`uc 1 WPUA1 1 0 :1:1 
+`uc 1 WPUA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 WPUA4 1 0 :1:4 
+`uc 1 WPUA5 1 0 :1:5 
+]
+"1992
+[s S494 . 1 `uc 1 WPU0 1 0 :1:0 
+`uc 1 WPU1 1 0 :1:1 
+`uc 1 WPU2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 WPU4 1 0 :1:4 
+`uc 1 WPU5 1 0 :1:5 
+]
+[u S501 . 1 `S487 1 . 1 0 `S494 1 . 1 0 ]
+[v _WPUAbits WPUAbits `VES501  1 e 1 @149 ]
+"2416
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+[s S334 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"2557
+[u S343 . 1 `S334 1 . 1 0 ]
+[v _BAUDCTLbits BAUDCTLbits `VES343  1 e 1 @155 ]
+"2646
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2653
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"3000
+[v _ANSEL ANSEL `VEuc  1 e 1 @286 ]
+"3062
+[v _ANSELH ANSELH `VEuc  1 e 1 @287 ]
+"3100
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+"3145
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"3341
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"3389
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"3415
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3447
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3629
+[v _RD RD `VEb  1 e 0 @3168 ]
+"3657
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"3693
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"3801
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3805
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"3863
+[v _WR WR `VEb  1 e 0 @3169 ]
+"3865
+[v _WREN WREN `VEb  1 e 0 @3170 ]
+"3885
+[v _nRABPU nRABPU `VEb  1 e 0 @1039 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"107 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\main.c
+[v _key_count key_count `ui  1 s 2 key_count ]
+"108
+[v _pressed_keys pressed_keys `ui  1 e 2 0 ]
+"109
+[v _last_key last_key `ui  1 e 2 0 ]
+"110
+[v _current_key current_key `uc  1 e 1 0 ]
+"111
+[v _tuning tuning `[23]ui  1 e 46 0 ]
+"161
+[v _in_tuning_mode in_tuning_mode `uc  1 e 1 0 ]
+"162
+[v _currently_tuning currently_tuning `c  1 e 1 0 ]
+"305
+[v _main main `(v  1 e 1 0 ]
+{
+"372
+} 0
+"163
+[v _tuningCheck tuningCheck `(v  1 e 1 0 ]
+{
+"171
+} 0
+"240
+[v _tune tune `(v  1 e 1 0 ]
+{
+"277
+} 0
+"224
+[v _tune_up tune_up `(v  1 e 1 0 ]
+{
+[v tune_up@key key `uc  1 a 1 wreg ]
+"225
+[v tune_up@value value `ui  1 a 2 41 ]
+"224
+[v tune_up@key key `uc  1 a 1 wreg ]
+[v tune_up@key key `uc  1 a 1 43 ]
+"228
+} 0
+"219
+[v _tune_down tune_down `(v  1 e 1 0 ]
+{
+[v tune_down@key key `uc  1 a 1 wreg ]
+"220
+[v tune_down@value value `ui  1 a 2 41 ]
+"219
+[v tune_down@key key `uc  1 a 1 wreg ]
+[v tune_down@key key `uc  1 a 1 43 ]
+"223
+} 0
+"209
+[v _check_value_range check_value_range `(v  1 e 1 0 ]
+{
+[v check_value_range@key key `uc  1 a 1 wreg ]
+"210
+[v check_value_range@value value `ui  1 a 2 35 ]
+"209
+[v check_value_range@key key `uc  1 a 1 wreg ]
+[v check_value_range@key key `uc  1 a 1 37 ]
+"218
+} 0
+"230
+[v _resetTuning resetTuning `(v  1 e 1 0 ]
+{
+"238
+} 0
+"184
+[v _save_tuning save_tuning `(v  1 e 1 0 ]
+{
+"186
+[v save_tuning@value value `ui  1 a 2 40 ]
+"191
+} 0
+"71
+[v _write16_eeprom write16_eeprom `(v  1 e 1 0 ]
+{
+[v write16_eeprom@addr addr `uc  1 a 1 wreg ]
+"73
+[v write16_eeprom@hi_byte hi_byte `uc  1 a 1 36 ]
+"72
+[v write16_eeprom@lo_byte lo_byte `uc  1 a 1 35 ]
+"71
+[v write16_eeprom@addr addr `uc  1 a 1 wreg ]
+[v write16_eeprom@value value `ui  1 p 2 32 ]
+[v write16_eeprom@addr addr `uc  1 a 1 37 ]
+"84
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 4 ]
+[v eeprom_write@addr addr `uc  1 a 1 6 ]
+"9
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"204 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\main.c
+[v _move_up move_up `(v  1 e 1 0 ]
+{
+"207
+} 0
+"200
+[v _move_down move_down `(v  1 e 1 0 ]
+{
+"203
+} 0
+"192
+[v _check_key_range check_key_range `(v  1 e 1 0 ]
+{
+"199
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"528
+[v printf@val val `ui  1 a 2 29 ]
+"499
+[v printf@c c `c  1 a 1 31 ]
+"506
+[v printf@prec prec `c  1 a 1 28 ]
+"508
+[v printf@flag flag `uc  1 a 1 27 ]
+"466
+[v printf@ap ap `[1]*.4v  1 a 1 26 ]
+"464
+[v printf@f f `*.25DCuc  1 p 2 17 ]
+"1541
+} 0
+"21 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\main.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 4 ]
+"25
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 16 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 11 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 13 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 8 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 4 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 6 ]
+"31
+} 0
+"279 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\main.c
+[v _play play `(v  1 e 1 0 ]
+{
+"292
+[v play@real_value real_value `ui  1 a 2 13 ]
+"298
+} 0
+"142
+[v _get_voltage get_voltage `(ul  1 e 4 0 ]
+{
+[v get_voltage@keyCode keyCode `ul  1 p 4 0 ]
+"158
+} 0
+"114
+[v _checkKey checkKey `(uc  1 e 1 0 ]
+{
+[v checkKey@keyVal keyVal `uc  1 a 1 wreg ]
+[v checkKey@keyVal keyVal `uc  1 a 1 wreg ]
+[v checkKey@keyVal keyVal `uc  1 a 1 6 ]
+"139
+} 0
+"28
+[v _SPI_Write SPI_Write `(v  1 e 1 0 ]
+{
+"33
+[v SPI_Write@config config `ui  1 a 2 2 ]
+"28
+[v SPI_Write@data data `ui  1 p 2 4 ]
+"46
+} 0
+"174
+[v _load_tuning load_tuning `(v  1 e 1 0 ]
+{
+"178
+} 0
+"85
+[v _read16_eeprom read16_eeprom `(ui  1 e 2 0 ]
+{
+[v read16_eeprom@addr addr `uc  1 a 1 wreg ]
+"88
+[v read16_eeprom@toRet toRet `ui  1 a 2 6 ]
+"87
+[v read16_eeprom@hi_byte hi_byte `uc  1 a 1 9 ]
+"86
+[v read16_eeprom@lo_byte lo_byte `uc  1 a 1 8 ]
+"85
+[v read16_eeprom@addr addr `uc  1 a 1 wreg ]
+[v read16_eeprom@addr addr `uc  1 a 1 10 ]
+"92
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 5 ]
+"12
+} 0
+"22 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"98
+} 0
+"18 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"26
+} 0
+"23 C:\Users\jamis\Desktop\my_root\Development\Circuits\HardwareProjects\PIC Work\Red_Keyboard_16f690.X\interrupts.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"50
+} 0
