@@ -24,9 +24,11 @@ I also broke out the key pads themselves to their own headers as I knew I'd need
 
 ## The Code
 
-"As set forth by Morgan and Bartholomew", it's in with a bunch of other projects. Which you've found. Probably.
+"As set forth by Morgan and Bartholomew", is right here.
 
-[https://github.com/JamesHagerman/HardwareProjects/tree/master/PIC%20Work/Red_Keyboard_16f690.X](https://github.com/JamesHagerman/HardwareProjects/tree/master/PIC%20Work/Red_Keyboard_16f690.X)
+[https://github.com/JamesHagerman/ZenSynth-RedKeyboard](https://github.com/JamesHagerman/ZenSynth-RedKeyboard)
+
+Someday, there will be another board revision of sorts, and I'll rewrite some of this in STM32... but the code should still be here...
 
 ### PIC16F690
 
